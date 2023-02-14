@@ -1,10 +1,8 @@
-<<<<<<< HEAD
 # rust-new-project-template
 
 =======
 # Rust-micorservice
 Forecasting the weather in the future
->>>>>>> 20f40f63981bf869418608790cd1291af7183ddd
 
 ## Tasks
 
