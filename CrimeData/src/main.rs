@@ -18,6 +18,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         current.location.country,
         current.current.temp_f,
         current.current.condition.text,
+        
     );
 
     Ok(())
