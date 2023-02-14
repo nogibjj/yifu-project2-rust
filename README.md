@@ -6,8 +6,8 @@ Forecasting the weather in the future
 
 ## Tasks
 
-1. Get the current weather by entering a postal code
-2. Forecast the weather for the next 7 days
+1. Get the current weather and condition by entering a postal code
+2. Forecast the weather and condition for the next 7 days
 3. Deploy to kubernetes
 
 ## References
