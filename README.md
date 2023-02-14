@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 # rust-new-project-template
 
 A good starting point for a new Rust project
+=======
+# Rust-micorservice
+Forecasting the weather in the future
+>>>>>>> 20f40f63981bf869418608790cd1291af7183ddd
 
 ## Tasks
 
@@ -11,3 +16,4 @@ A good starting point for a new Rust project
 ## References
 
 * [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
+* [weather API](https://www.weatherapi.com/my/)
