@@ -1,5 +1,5 @@
-# rust-new-project-template
-A good starting point for a new Rust project
+# Rust-micorservice
+Forecasting the weather in the future
 
 ## References
 
