@@ -1,4 +1,4 @@
-# rust-new-project-template
+# Weather Forecast
 
 =======
 # Rust-micorservice
