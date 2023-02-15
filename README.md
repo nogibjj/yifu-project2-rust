@@ -2,7 +2,7 @@
 
 =======
 
-# Rust-micorservice
+## Description
 
 This is a course project which is a simple microservice for forecasting the weather in the future. This project image will be pushed to DockerHub, or Cloud based Container Registery (ECR), and it will be deployed automatically to Kubernetes cluster.
 
@@ -14,7 +14,6 @@ This is a course project which is a simple microservice for forecasting the weat
 - `make deploy` which is this `cargo lambda deploy`
 
 ```bash
-@yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $ cd CrimeData/
 @yifu-deng ➜ /workspaces/yifu-rust-project2/CrimeData (main) $ make format
 cargo fmt --quiet
 @yifu-deng ➜ /workspaces/yifu-rust-project2/CrimeData (main) $ make lint
@@ -33,7 +32,6 @@ Current weather in Durham (North Carolina, USA):
 1. Get the current weather and condition by entering a postal code
 2. Forecast the weather and condition for the next 7 days
 3. Deploy to kubernetes
-
 
 ## References
 
