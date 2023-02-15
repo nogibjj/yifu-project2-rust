@@ -1,16 +1,19 @@
-<<<<<<< HEAD
-# rust-new-project-template
+# Individual Project #2: Weather Forecast
 
-A good starting point for a new Rust project
 =======
 # Rust-micorservice
-Forecasting the weather in the future
->>>>>>> 20f40f63981bf869418608790cd1291af7183ddd
+This is a course project which is a simple microservice for forecasting the weather in the future. This project image will be pushed to DockerHub, or Cloud based Container Registery (ECR), and it will be deployed automatically to Kubernetes cluster.
+
+## Steps to run
+- `make format` to format code
+- `make lint` to lint
+- `make release-arm` to build for arm which is: `cargo lambda build --release --arm64`
+- `make deploy` which is this `cargo lambda deploy`
 
 ## Tasks
 
-1. Get the current weather by entering a postal code
-2. Forecast the weather for the next 7 days
+1. Get the current weather and condition by entering a postal code
+2. Forecast the weather and condition for the next 7 days
 3. Deploy to kubernetes
 `
 ## References
