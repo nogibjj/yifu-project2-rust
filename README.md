@@ -1,8 +1,14 @@
-# Weather Forecast
+# Individual Project #2: Weather Forecast
 
 =======
 # Rust-micorservice
-Forecasting the weather in the future
+This is a course project which is a simple microservice for forecasting the weather in the future. This project image will be pushed to DockerHub, or Cloud based Container Registery (ECR), and it will be deployed automatically to Kubernetes cluster.
+
+## Steps to run
+- `make format` to format code
+- `make lint` to lint
+- `make release-arm` to build for arm which is: `cargo lambda build --release --arm64`
+- `make deploy` which is this `cargo lambda deploy`
 
 ## Tasks
 
