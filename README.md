@@ -30,7 +30,9 @@ Current weather in Durham (North Carolina, USA):
 
 1. Get the current weather and condition by entering a postal code
 2. Forecast the weather and condition for the next 7 days
-3. Deploy to kubernetes
+3. Create a customized Docker container from the current version of Rust
+4. Push image to DockerHub and Cloud based Container Registery (ECR)
+5. Project should deploy automatically to Kubernetes cluster
 
 ## References
 
