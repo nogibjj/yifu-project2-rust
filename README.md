@@ -1,6 +1,5 @@
 # Individual Project #2: Weather Forecast
 
-=======
 
 ## Description
 
