@@ -1,6 +1,5 @@
 # Individual Project #2: Weather Forecast
 
-
 ## Description
 
 This is a course project which is a simple microservice for forecasting the weather in the future. This project image will be pushed to DockerHub, or Cloud based Container Registery (ECR), and it will be deployed automatically to Kubernetes cluster.
@@ -13,17 +12,85 @@ This is a course project which is a simple microservice for forecasting the weat
 - `make deploy` which is this `cargo lambda deploy`
 
 ```bash
-@yifu-deng ➜ /workspaces/yifu-rust-project2/CrimeData (main) $ make format
-cargo fmt --quiet
-@yifu-deng ➜ /workspaces/yifu-rust-project2/CrimeData (main) $ make lint
-cargo clippy --quiet
-@yifu-deng ➜ /workspaces/yifu-rust-project2/CrimeData (main) $ cargo run 27705
-   Compiling weather v0.1.0 (/workspaces/yifu-rust-project2/WeatherForecast)
-    Finished dev [unoptimized + debuginfo] target(s) in 3.93s
+@yifu-deng ➜ /workspaces/yifu-rust-project2/WeatherForecast (main) $ cargo run 27705   
+Compiling weather v0.1.0 (/workspaces/yifu-rust-project2/WeatherForecast)
+    Finished dev [unoptimized + debuginfo] target(s) in 2.62s
      Running `target/debug/weather 27705`
-Current weather in Durham (North Carolina, USA): 
-        Temperature: 53.1°F, 
-        Condition: Partly cloudy
+Weather forecast for Durham (North Carolina, USA)
+        Last updated time: 2023-02-21 13:00
+        Time zone: America/New_York
+        The query time is 2023-02-21 13:08;
+        Today is 2023-02-21,
+        
+Date: 2023-02-21,
+            Maximum temperature: 69.3°F,
+            Minimum temperature: 55.8°F,
+            Average temperature: 61.2°F,
+            Weather condition: Cloudy
+            The probability of rain is 0%,
+            The probability of snow is 0%,
+            The average humidity is 60%,
+            Sunrise: 06:56 AM; Sunset: 06:03 PM.
+
+Date: 2023-02-22,
+            Maximum temperature: 73.9°F,
+            Minimum temperature: 50.4°F,
+            Average temperature: 60.7°F,
+            Weather condition: Overcast
+            The probability of rain is 0%,
+            The probability of snow is 0%,
+            The average humidity is 69%,
+            Sunrise: 06:55 AM; Sunset: 06:04 PM.
+
+Date: 2023-02-23,
+            Maximum temperature: 76.1°F,
+            Minimum temperature: 60.4°F,
+            Average temperature: 67.4°F,
+            Weather condition: Partly cloudy
+            The probability of rain is 0%,
+            The probability of snow is 0%,
+            The average humidity is 79%,
+            Sunrise: 06:54 AM; Sunset: 06:05 PM.
+
+Date: 2023-02-24,
+            Maximum temperature: 61.9°F,
+            Minimum temperature: 46°F,
+            Average temperature: 56.7°F,
+            Weather condition: Sunny
+            The probability of rain is 0%,
+            The probability of snow is 0%,
+            The average humidity is 51%,
+            Sunrise: 06:52 AM; Sunset: 06:06 PM.
+
+Date: 2023-02-25,
+            Maximum temperature: 39.6°F,
+            Minimum temperature: 37.6°F,
+            Average temperature: 40°F,
+            Weather condition: Moderate rain
+            The probability of rain is 88%,
+            The probability of snow is 0%,
+            The average humidity is 71%,
+            Sunrise: 06:51 AM; Sunset: 06:07 PM.
+
+Date: 2023-02-26,
+            Maximum temperature: 67.8°F,
+            Minimum temperature: 41.4°F,
+            Average temperature: 53.6°F,
+            Weather condition: Patchy rain possible
+            The probability of rain is 73%,
+            The probability of snow is 0%,
+            The average humidity is 87%,
+            Sunrise: 06:50 AM; Sunset: 06:07 PM.
+
+Date: 2023-02-27,
+            Maximum temperature: 51.3°F,
+            Minimum temperature: 38.3°F,
+            Average temperature: 46.4°F,
+            Weather condition: Partly cloudy
+            The probability of rain is 0%,
+            The probability of snow is 0%,
+            The average humidity is 59%,
+            Sunrise: 06:48 AM; Sunset: 06:08 PM.
 ```
 
 ## Tasks
