@@ -76,7 +76,6 @@ async fn main() -> std::io::Result<()> {
         .await
 }
 
-
 // This version is to get the output in the command line
 // use std::env;
 
