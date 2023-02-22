@@ -96,6 +96,14 @@ Date: 2023-02-27,
             Sunrise: 06:48 AM; Sunset: 06:08 PM.
 ```
 
+## Containerization
+
+- I also **containerized** this project with `Docker`.
+
+- `make docker-build` to build docker image
+- `make docker-run` to run docker image
+
+
 ## Tasks
 
 1. Get the current weather and condition by entering a postal code
