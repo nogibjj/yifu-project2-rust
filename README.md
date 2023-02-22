@@ -109,10 +109,11 @@ Date: 2023-02-27,
 1. Get the current weather and condition by entering a postal code
 2. Forecast the weather and condition for the next 7 days
 3. Create a customized Docker container from the current version of Rust
-4. Push image to DockerHub and Cloud based Container Registery (ECR)
-5. Project should deploy automatically to Kubernetes cluster
+4. Use Minikube like ECS, EKS, GKE or AKS
 
 ## References
 
 - [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
 - [weather API](https://www.weatherapi.com/my/)
+- [Kubernete](https://github.com/nogibjj/coursera-applied-de-kubernetes-lab)
+- [Hello MiniKube](https://kubernetes.io/docs/tutorials/hello-minikube/)
