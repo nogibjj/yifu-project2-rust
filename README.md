@@ -115,7 +115,7 @@ Date: 2023-02-27,
 
 - [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
 - [weather API](https://www.weatherapi.com/my/)
-- [Kubernete](https://github.com/nogibjj/coursera-applied-de-kubernetes-lab)
+- [coursera-applied-de-kubernetes-lab](https://github.com/nogibjj/coursera-applied-de-kubernetes-lab)
 - [Hello MiniKube](https://kubernetes.io/docs/tutorials/hello-minikube/)
 - [Get started with Kubernetes(Python)](https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/)
 
