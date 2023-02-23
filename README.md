@@ -107,7 +107,7 @@ Date: 2023-02-27,
 ## Deploy with Kubernetes FastAPI app
 
 1.  Push container to DockerHub (Optional): i.e. 
-`docker build -t <hub-user>/<repo-name>[:<tag>]` and `docker push <hub-user>/<repo-name>:<tag>`
+`docker build -t yifud/weather/weather .` and `docker push yifud/weather:weather`
 Example of a pushed FastAPI container here:  https://hub.docker.com/repository/docker/yifud/weather
 2. `minikube start`
 3. `minikube dashboard --url`
