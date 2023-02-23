@@ -126,6 +126,8 @@ kubectl delete deployment weather-api
 minikube stop
 ````
 
+<img width="710" alt="image" src="https://user-images.githubusercontent.com/77519205/221040317-77019f96-e344-4455-9be0-7b6f3825e42e.png">
+
 ## Tasks
 
 1. Get the current weather and condition by entering a postal code
