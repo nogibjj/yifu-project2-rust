@@ -125,6 +125,42 @@ kubectl delete service weather-api
 kubectl delete deployment weather-api
 minikube stop
 ````
+Here is the progress of my project
+```bash
+@yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $ minikube start
+😄  minikube v1.29.0 on Debian 11.6 (docker/amd64)
+✨  Using the docker driver based on existing profile
+👍  Starting control plane node minikube in cluster minikube
+🚜  Pulling base image ...
+🔄  Restarting existing docker container for "minikube" ...
+🐳  Preparing Kubernetes v1.26.1 on Docker 20.10.23 ...
+🔗  Configuring bridge CNI (Container Networking Interface) ...
+🔎  Verifying Kubernetes components...
+    ▪ Using image docker.io/kubernetesui/metrics-scraper:v1.0.8
+    ▪ Using image gcr.io/k8s-minikube/storage-provisioner:v5
+    ▪ Using image docker.io/kubernetesui/dashboard:v2.7.0
+💡  Some dashboard features require the metrics-server addon. To enable all features please run:
+
+        minikube addons enable metrics-server
+
+
+🌟  Enabled addons: storage-provisioner, default-storageclass, dashboard
+🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
+@yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $ kubectl create deployment weather-api --image=registry.hub.docker.com/yifud/weather
+deployment.apps/weather-api created
+@yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $ kubectl get deployments
+NAME          READY   UP-TO-DATE   AVAILABLE   AGE
+weather-api   0/1     0            0           5s
+@yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $ kubectl expose deployment weather-api --type=LoadBalancer --port=8080
+service/weather-api exposed
+@yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $ kubectl get service weather-api
+NAME          TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
+weather-api   LoadBalancer   10.100.51.238   <pending>     8080:30807/TCP   6s
+@yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $ minikube service weather-api --url
+http://192.168.49.2:30807
+@yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $ curl http://192.168.49.2:30807
+@yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $ 
+```
 
 This is my created docker repo
 <img width="710" alt="image" src="https://user-images.githubusercontent.com/77519205/221040317-77019f96-e344-4455-9be0-7b6f3825e42e.png">
