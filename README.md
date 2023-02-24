@@ -20,8 +20,7 @@ This is a course project which is a simple microservice for forecasting the weat
 
 - `make format` to format code
 - `make lint` to lint
-- `make release-arm` to build for arm which is: `cargo lambda build --release --arm64`
-- `make deploy` which is this `cargo lambda deploy`
+- `cargo run` to run the project
 
 ```bash
 @yifu-deng ➜ /workspaces/yifu-rust-project2/WeatherForecast (main) $ cargo run 27705   
@@ -107,12 +106,12 @@ Date: 2023-02-27,
 
 ## Containerization
 
-To use Docker in `rust` and `kubernete`, should `command + shift + p` in Vscode and type `Add Dev Container Configuration Files...` and select needed `Docker`.
+To use Docker in `Rust` and `kubernete`, should `command + shift + p` in Vscode and type `Add Dev Container Configuration Files...` and select needed `Docker`.
 
 - I also **containerized** this project with `Docker`.
 
-- `make docker-build` to build docker image
-- `make docker-run` to run docker image
+- `make build` to build docker image
+- `make rundocker` to run docker image
 
 
 ## Deploy with Kubernetes FastAPI app
