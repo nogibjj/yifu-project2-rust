@@ -174,11 +174,9 @@ http://192.168.49.2:30807
 This is my created docker repo
 <img width="710" alt="image" src="https://user-images.githubusercontent.com/77519205/221040317-77019f96-e344-4455-9be0-7b6f3825e42e.png">
 
-## AWS ECR
-- I deploy this project to AWS ECR and the link is https://ujrpfpqnub.us-east-1.awsapprunner.com/
-- <img width="1471" alt="image" src="https://user-images.githubusercontent.com/77519205/221072206-c2cd1703-e47c-4a88-b2b4-f81fa25d2a9d.png">
 
 ## AWS ECS
+- I deploy the project to AWS ECS
 <img width="1408" alt="image" src="https://user-images.githubusercontent.com/77519205/221074223-c464ecf4-9aca-444c-b145-1f3fb36c32d8.png">
 
 
