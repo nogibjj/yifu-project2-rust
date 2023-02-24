@@ -172,9 +172,6 @@ http://192.168.49.2:30807
 Weather Forecast@yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $ 
 ```
 
-- This is my created docker repo\
-<img width="710" alt="image" src="https://user-images.githubusercontent.com/77519205/221040317-77019f96-e344-4455-9be0-7b6f3825e42e.png">
-
 ## AWS ECR
 - Deploy the project to AWS ECR
 <img width="1448" alt="image" src="https://user-images.githubusercontent.com/77519205/221075188-db1612a6-f1e3-4227-b588-cbf35db7c527.png">
