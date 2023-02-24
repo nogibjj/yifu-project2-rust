@@ -107,22 +107,22 @@ Date: 2023-02-27,
 ## Deploy with Kubernetes FastAPI app
 
 1.  Push container to DockerHub (Optional): i.e. 
-`docker build -t yifud/weather/weather .` and `docker push yifud/weather:weather`
+`docker build -t yifud/weather:weather .` and `docker push yifud/weather:weather`
 Example of a pushed FastAPI container here:  https://hub.docker.com/repository/docker/yifud/weather
 2. `minikube start`
 3. `minikube dashboard --url`
 4. Hover over link and "follow link"
-5. Create a deployment: `kubectl create deployment hello-fastapi --image=registry.hub.docker.com/yifud/weather`
+5. Create a deployment: `kubectl create deployment weather-api --image=registry.hub.docker.com/yifud/weather`
 6. View deployment: `kubectl get deployments`
-7. Create service and expose it: `kubectl expose deployment hello-fastapi --type=LoadBalancer --port=8080`
-8. View services:  `kubectl get service hello-fastapi`
-9.  `minikube service hello-fastapi --url`
+7. Create service and expose it: `kubectl expose deployment weather-api --type=LoadBalancer --port=8080`
+8. View services:  `kubectl get service weather-api`
+9.  `minikube service weather-api --url`
 10. Curl web service: i.e. `curl http://192.168.49.2:31224`
 11. Cleanup
 12. Cleanup
 ```bash
-kubectl delete service hello-fastapi
-kubectl delete deployment hello-fastapi
+kubectl delete service weather-api
+kubectl delete deployment weather-api
 minikube stop
 ````
 
