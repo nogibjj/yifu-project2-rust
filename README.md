@@ -126,11 +126,14 @@ kubectl delete deployment weather-api
 minikube stop
 ````
 
+This is my created docker repo
+<img width="710" alt="image" src="https://user-images.githubusercontent.com/77519205/221040317-77019f96-e344-4455-9be0-7b6f3825e42e.png">
+
 ## Tasks
 
 1. Get the current weather and condition by entering a postal code
 2. Forecast the weather and condition for the next 7 days
-3. Create a customized Docker container from the current version of Rust that deploys a simple python script.
+3. Create a customized Docker container from the current version of Rust.
 4. Push image to DockerHub, or Cloud based Container Registery (ECR)
 5. Project should deploy automatically to Kubernetes cluster
 6. Deployment should be to some form of Kubernetes service (can be hosted like Google Cloud Run or Amazon EKS, etc)
