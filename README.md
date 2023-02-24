@@ -7,6 +7,10 @@
 
 This is a course project which is a simple microservice for forecasting the weather in the future based on Rust and Actix. This project image will be pushed to DockerHub, and Cloud based Container Registery (ECR), and it will be deployed automatically to Kubernetes cluster.
 
+## How to use
+
+type`/` + <postal code>(or name of city) to get the weather now and for the next seven days
+
 ## Tasks
 
 1. Get the current weather and condition by entering a postal code
