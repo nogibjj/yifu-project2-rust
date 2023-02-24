@@ -178,6 +178,9 @@ This is my created docker repo
 - I deploy this project to AWS ECR and the link is https://ujrpfpqnub.us-east-1.awsapprunner.com/
 - <img width="1471" alt="image" src="https://user-images.githubusercontent.com/77519205/221072206-c2cd1703-e47c-4a88-b2b4-f81fa25d2a9d.png">
 
+## AWS ECS
+<img width="1408" alt="image" src="https://user-images.githubusercontent.com/77519205/221074223-c464ecf4-9aca-444c-b145-1f3fb36c32d8.png">
+
 
 ## References
 
