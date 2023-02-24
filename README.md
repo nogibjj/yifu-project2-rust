@@ -5,7 +5,7 @@
 
 ## Description
 
-This is a course project which is a simple microservice for forecasting the weather in the future based on Rust. This project image will be pushed to DockerHub, or Cloud based Container Registery (ECR), and it will be deployed automatically to Kubernetes cluster.
+This is a course project which is a simple microservice for forecasting the weather in the future based on Rust and Actix. This project image will be pushed to DockerHub, and Cloud based Container Registery (ECR), and it will be deployed automatically to Kubernetes cluster.
 
 ## Tasks
 
