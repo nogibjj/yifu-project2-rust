@@ -9,7 +9,7 @@ This is a course project which is a simple microservice for forecasting the weat
 
 ## How to use
 
-type`/` + <postal code>(or name of city) to get the weather now and for the next seven days
+type`/` + postal code(or name of city) to get the weather now and for the next seven days
 
 ## Tasks
 
