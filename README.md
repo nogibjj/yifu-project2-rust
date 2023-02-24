@@ -98,6 +98,8 @@ Date: 2023-02-27,
 
 ## Containerization
 
+To use Docker in `rust` and `kubernete`, should `command + shift + p` in Vscode and type `Add Dev Container Configuration Files...` and select needed `Docker`.
+
 - I also **containerized** this project with `Docker`.
 
 - `make docker-build` to build docker image
@@ -159,10 +161,10 @@ weather-api   LoadBalancer   10.100.51.238   <pending>     8080:30807/TCP   6s
 @yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $ minikube service weather-api --url
 http://192.168.49.2:30807
 @yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $ curl http://192.168.49.2:30807
-@yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $ 
+Weather Forecast@yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $ 
 ```
 
-This is my created docker repo
+- This is my created docker repo\
 <img width="710" alt="image" src="https://user-images.githubusercontent.com/77519205/221040317-77019f96-e344-4455-9be0-7b6f3825e42e.png">
 
 ## Tasks
