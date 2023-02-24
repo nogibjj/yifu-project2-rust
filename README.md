@@ -177,12 +177,12 @@ Weather Forecast@yifu-deng ➜ /workspaces/yifu-rust-project2 (main) $
 <img width="710" alt="image" src="https://user-images.githubusercontent.com/77519205/221040317-77019f96-e344-4455-9be0-7b6f3825e42e.png">
 
 ## AWS ECR
-- I deploy the project to AWS ECR
+- Deploy the project to AWS ECR
 <img width="1448" alt="image" src="https://user-images.githubusercontent.com/77519205/221075188-db1612a6-f1e3-4227-b588-cbf35db7c527.png">
 and the link is https://ujrpfpqnub.us-east-1.awsapprunner.com. Feel free to check it out!
 
 ## AWS ECS
-- I deploy the project to AWS ECS
+- Deploy the project to AWS ECS
 <img width="1408" alt="image" src="https://user-images.githubusercontent.com/77519205/221074223-c464ecf4-9aca-444c-b145-1f3fb36c32d8.png">
 
 
